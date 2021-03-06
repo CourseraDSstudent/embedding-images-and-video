@@ -1,0 +1,14 @@
+.navbar {
+    background-color: cyan;
+    height: 100px;
+}
+
+.videos {
+    background-color: lightgreen;
+    height: 100px;
+}
+
+.sidebar {
+    background-color: pink;
+    height: 100px;
+}
