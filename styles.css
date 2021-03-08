@@ -1,14 +1,35 @@
+.container {
+    display: flex;
+}
+
 .navbar {
-    background-color: cyan;
-    height: 100px;
+    background-color: #FF6347;
+    height: auto;
+    padding: 20px;
+    left: 0;
+}
+
+.navbar > * {
+    padding-right: 10px;
 }
 
 .videos {
-    background-color: lightgreen;
-    height: 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #00BFFF;
+    height: 100vw;
+    position: relative;
+    width: 100%;
+    margin-left: 190px;
 }
 
 .sidebar {
-    background-color: pink;
-    height: 100px;
+    flex-basis: auto;
+    background-color: #FFD700;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
