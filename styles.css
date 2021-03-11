@@ -16,15 +16,14 @@
 .videos {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: flex-start; */
     align-content: flex-start;
     background-color: #00BFFF;
-    height: 100vw;
+    height: auto;
     position: relative;
     width: 100%;
     margin-left: 190px;
     gap: 10px;
+    padding-top: 50px;
 }
 
 .videos > * {
@@ -32,7 +31,8 @@
     justify-content: center;
     align-content: flex-start;
     margin-bottom: 100px;
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 
@@ -52,3 +52,9 @@
     flex-direction: column;
     text-align: center;
 }
+
+.ifr-parent > p {
+    width: 300px;  
+    margin-bottom: auto;
+}
+
